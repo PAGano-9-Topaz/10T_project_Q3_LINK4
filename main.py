@@ -6,7 +6,7 @@ def intrams(e):
     Section = document.getElementById("Select2").value
 
     TP = ["Abdullah, Abeleda, Arce, Arias, Bonzon, Cajucom, Catimbang, Cotioco, Choi, Daradal, Enriquez, Escobar, Espina, Gano, Garcia, Kaur, Ong, Rufo, Sanchez, Santos, Tan, Vilale, Yao, Zosa"]
-    SP = "Unfortunately we are lacking information about Sapphire. In the meantime, look at the other sections."
+    SP = ["Aseo, Batac, Calanglang, De Guzman, Dee, Dolor, Galvez, Garces, Grospe, Hizon, Intalan, Ko, Lagman, Law, Macabago, Martinez, Medina, Mendoza, Mergal, Ngo, Padojinog, Rivera, Shrestha, Uy, Yao"]
     RB = ["Agena, Ala, Baring, Baylon, Brodhagen, Cabatingan, Cañete, Dimaculangan, Evangelista, Galang, Garbles, Gonzales, Jamet, Ledesma, Nacino, Nardo, Oliveros, Oldmedo, Ong, Rebadulla, Reyes, Sangreo, Villafuerte, Villegas, Yao"]
     EM = ["Ibay, Barrientos, Sidhu, Coeli, Dellejero, Franzeska-Delacruz, Lan-Delacruz, Gozum, Precones, De mata, Antes, Yvonne Casal, Mamauag, Apostol, David, Ramos, Lozano, Zaragoza, Tiu, Villamayor, Fukuda, Navarro"]
     
@@ -16,7 +16,7 @@ def intrams(e):
         for topaz in TP:
             display(topaz, target='output1')
     elif Section == 'SPE':
-            display(SP, target='output1')
+            display(, target='output1')
     if Section == 'RBY':
         for ruby in RB:
             display(ruby, target='output1')
