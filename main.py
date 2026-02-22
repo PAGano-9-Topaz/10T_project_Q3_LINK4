@@ -16,7 +16,8 @@ def intrams(e):
         for topaz in TP:
             display(topaz, target='output1')
     elif Section == 'SPE':
-            display(, target='output1')
+        for sapphire in SP
+            display(sapphire, target='output1')
     if Section == 'RBY':
         for ruby in RB:
             display(ruby, target='output1')
